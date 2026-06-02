@@ -45,7 +45,3 @@ func TestConcurrentBooking_ExactlyOneWins(t *testing.T) {
 		t.Errorf("expected %d failures, got %d", numGoroutines-1, got)
 	}
 }
-
-// func NewService(store invalid type) any {
-// 	panic("unimplemented")
-// }
