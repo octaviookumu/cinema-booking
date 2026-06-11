@@ -290,7 +290,7 @@ export function init() {
 
   function startPolling() {
     if (pollInterval) clearInterval(pollInterval);
-    pollInterval = setInterval(fetchSeats, 2000);
+    pollInterval = setInterval(fetchSeats, 5000);
   }
 
   // --- Util ---
